@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="AdditionalModuleElements">
+    <content url="file://$MODULE_DIR$" dumb="true">
+      <sourceFolder url="file://$MODULE_DIR$/OrderService" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/employee" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/extractclass" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/inline1" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/inline2" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/invoice" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/moveclass" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/order1" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/products" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/splitandsum" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sumchecker" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/tax" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/temperature" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/testable" isTestSource="false" />
+    </content>
+  </component>
+</module>

@@ -1,4 +1,6 @@
+import org.junit.Test;
 
+import static org.junit.Assert.assertEquals;
 
 public class TaxCalculator {
     public double calculateTax(double income) {
