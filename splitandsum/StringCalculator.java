@@ -1,20 +1,20 @@
-
+import org.junit.Assert;
+import org.junit.Test;
 
 public class StringCalculator {
     public static int splitAndSum(String text) {
-        int result = 0;
+        if (text == null || text.isEmpty()) return 0;
+        return getSum(text.split("-"));
+    }
 
-        if (text == null || text.isEmpty()) {
-            result = 0;
-        }
-        else {
-            String[] values = text.split("-");
-            for (String value : values) {
-                result += Integer.parseInt(value);
-            }
+    private static int getSum(String[] values) {
+        int result = 0;
+        for (String value : values) {
+            result += Integer.parseInt(value);
         }
         return result;
     }
+
     @Test
     public void testSplitAndSum(){
         StringCalculator s = new StringCalculator();
